@@ -3,7 +3,7 @@ namespace EspacioCalculadora;
 public class EspacioCalculadora
 {
     private double dato;
-    public double Dato { get => dato;}
+    public double Resultado { get => dato;}
 
     public double Sumar(double termino)
     {
@@ -25,8 +25,5 @@ public class EspacioCalculadora
     {
         dato = 0;
     }
-    public double Resultado()
-    {
-        return dato;
-    }
+    
 }
