@@ -1,6 +1,6 @@
 namespace EspacioCalculadora;
 
-public class EspacioCalculadora
+public class Calculadora
 {
     private double dato;
     public double Resultado { get => dato;}
