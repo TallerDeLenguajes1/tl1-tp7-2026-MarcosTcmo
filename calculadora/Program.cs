@@ -32,21 +32,27 @@ do
     switch (numeroIngresado)
     {
         case 1:
+            Console.WriteLine("Ingrese el numero a sumar");
             Micalculadora.Sumar(leerNumero());
             break;
         case 2:
+            Console.WriteLine("Ingrese el numero a restar");
             Micalculadora.Restar(leerNumero());
             break;
         case 3:
+            Console.WriteLine("Ingrese el numero a multiplicar");
             Micalculadora.Multiplicar(leerNumero());
             break;
         case 4:
+            Console.WriteLine("Ingrese el numero a dividir");
             Micalculadora.Dividir(leerNumero());
             break;
         case 5:
+            Console.WriteLine("Limpiando . . .");
             Micalculadora.Limpiar();
             break;
         case 0:
+            Console.WriteLine("Saliendo . . .");
             confirmar = false;
             break;
         default:
